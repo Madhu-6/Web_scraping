@@ -1,0 +1,13 @@
+APIRequest has model which has the data that should be sent , apiurlkey which the endpoint we send only the key and parameters
+
+with the help of Hepler class we get the details from the config file we combine the endpoint and the parameters
+
+In background 
+
+client is created with baseurl, headers, auth
+
+request is sent specifying the method and the endpoint url that we got with parameters
+
+request content is assigned to the model that we send via APIRequest 
+
+the request is made and we get the response we deserialize the response
